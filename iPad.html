@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPad</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content"> 
+            <div class="video"><video src="./images/large.mp4" muted autoplay height="500px"></video></div>
+            <div class="details">
+                <div><p1>New</p1></div>
+                <div><h2>iPadOS 16</h2></div>
+                <div><p2>From From ₹13150.00/mo.Per Month <br> with instant
+                    savings and No Cost EMI<br> Footnot or ₹81900.00Footnote</p2></div>
+                <div><button>Buy Now</button></div>
+                
+            </div>
+            <div class="features">
+                <p>Model. Choose your size <br>and display.</p>
+                <p2>27.96 cm-11"-display<br>
+                    Liquid Retina display<br>
+                </p2>
+                <p2>32.77 cm-12.9"-display<br>
+                    Liquid Retina XDR display</p2>
+            </div>
+            <div class="cart">
+                <img src="./images/caartt.jpg" height="30px" width="30px">
+                <p>Add to Cart</p>
+            </div>
+        </div>
+       
+        <div class="footer">
+                <div class="f">
+                    <div>Flexible ways to pay
+                        No Cost EMI and EMI available.</div>
+                    <div>Apple Trade In
+                        Trade in your eligible device for credit towards your next purchase.*</div>
+                    <div>Free delivery and pickup.
+                        Get free delivery or pick up at your Apple Store.
+                    </div>
+    
+                </div>
+                
+                <div class="i"><img src="./images/i1.png" height="70px" width="70px"></div>
+        </div>
+        
+    </div>
+</body>
+<style>
+     .f{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+     
+     .footer{
+        height: 220px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: small;
+        background-color: #1d1d1f;
+        color: white;
+        line-height: 100px;
+        
+    }
+    .features p2{
+        font-weight: bolder;
+        color: white;
+        
+       
+    }
+    .features p{
+        font-size: x-large;
+        font-weight: bolder;
+        color: rgb(134 134 139);
+    }
+
+    .cart{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+        color: red;
+    }
+      .details button:hover{
+        background-color:black ;
+        color: white;
+    }
+    .details button{
+        padding: 20px;
+        color:black;
+        border: 1px solid white;
+        transition: background-color;
+        border-radius: 30px;
+    }
+    .details p2{
+        font-size: small;
+        color:white;
+        line-height: 25px;
+        
+    }
+    .details p1{
+        font-size: small;
+        color: orangered;
+    }
+    .details h2{
+        font-weight: bolder;
+        font-size: 35px;
+        color: white;
+    }
+     .features{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+   
+    .content{
+        height: 500px;
+        width: 100%;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .main{
+        font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    }
+</style>
+</html>

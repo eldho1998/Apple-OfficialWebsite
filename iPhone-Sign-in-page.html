@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone-Sign in</title>
+</head>
+<body>
+    <div class="main">
+        <img src="./images/i1.png" width="80px" height="80px">
+        <h1>Create Your Apple ID</h1>
+        <p1>One Apple ID is all you need to access all Apple sevices.</p1>
+        <form>
+            <div class="first-last">
+                <input type="text" placeholder="first name">
+                <input type="text" placeholder="last name">
+            </div>
+            <label class="l1">COUNTRY/REGION</label><br>
+            <select>
+                <option>Choose</option>
+                <option>United Kingdom</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>Belgium</option>
+                <option>Germany</option>
+            </select><br>
+            <input type="email" placeholder="name@example.com"><br>
+            <label>This will be your new Apple ID</label><br>
+            <input type="text" placeholder="password" required><br>
+            <input type="text" placeholder="confirm password"><br>
+            <select>
+                <option>Country Code</option>
+                <option>+44(United Kingdom)</option>
+                <option>+91(India)</option>
+            </select><br>
+            <input type="text"placeholder="phone number">
+        </form>
+        <p>
+            Make sure you enter a phone number you can always access.It<br>
+            will be used to verify your identity any time you sign in on a new <br>
+            device or web browser.Messaging or data rates may apply.
+        </p>
+        <a href="./IPhone.html"><button type="button">Submit</button></a>
+       
+       
+    </div>
+</body>
+<style>
+    button:hover{
+       
+        background-color: white;
+        color:black;
+    }
+    button{
+        padding:15px ;
+        font-size: large;
+        height: 50px;
+        width: 150px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        transform: background-color;
+    }
+    p1{
+        line-height: 40px;
+    }
+    .l1{
+        line-height: 40px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    select{
+        padding: 15px;
+        border-radius: 5px;
+        font-size: large;
+        border: 1px solid rgb(202, 183, 183);
+    }
+    input{
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid rgb(202, 183, 183);
+        font-size: large;
+    }
+    .main{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        background-color:white;
+        height: 1000px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+       
+    }
+</style>
+</html>
